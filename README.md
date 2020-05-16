@@ -19,28 +19,41 @@ Passos para utilizar o robô:
 
 - Instale as dependências necessárias com os seguintes comandos:
 
-`pip install pytz`
-
-`pip install requests`
-
-`pip install git+https://github.com/conversocial/tweepy.git@video_upload2`
+```
+pip install pytz
+pip install requests
+pip install git+https://github.com/conversocial/tweepy.git@video_upload2
+```
 
 - Abra o arquivo `Robo.py` e configure as seguintes entradas de acordo com seu gosto e suas chaves do Twitter:
 
-`nome="NOME DO SEU ROBÔ" (str)`
-
-`versao=1.0 (int)`
-
-`consumer_key="TWITTER CONSUMER KEY" (str)`
-
-`consumer_secret_key="TWITTER CONSUMER SECRET KEY" (str)`
-
-`access_token="TWITTER APP ACCESS TOKEN" (str)`
-
-`access_token_secret="TWITTER APP TOKEN SECRET" (str)`
+```
+nome="NOME DO SEU ROBÔ" (str)
+versao=1.0 (int)
+consumer_key="TWITTER CONSUMER KEY" (str)
+consumer_secret_key="TWITTER CONSUMER SECRET KEY" (str)
+access_token="TWITTER APP ACCESS TOKEN" (str)
+access_token_secret="TWITTER APP TOKEN SECRET" (str)
+```
 
 - Não sabe onde encontrar suas chaves do Twitter? Crie uma conta de desenvolvedor no Twitter e depois crie um app clicando [aqui](https://developer.twitter.com/en/apps "aqui"), em seguida irão disponibilizar as suas chaves.
 
 - Finalmente o último passo, basta executar o script.
 
 `python Robo.py`
+
+
+### Como funciona
+
+- Quando o robô for iniciado irá ser criado uma pasta chamada `Memes` - não apague-a pois faz parte do robô - onde será salvo imagens e vídeos engraçados capturados do site [iFunny](https://br.ifunny.co/ "iFunny") em determinados horários - esses horários são horários de atualização das postagens do site - e a cada 6 minutos será selecionado uma imagem ou um vídeo aleatório para ser postado no Twitter.
+
+
+### Erros e problemas
+
+- Caso ocorra algum erro não hesite em alertar, abra uma "questão" clicando [aqui](https://github.com/MatheusGatti/mememakertwitter/issues/new "aqui").
+
+
+### Contribuições
+
+- Caso você tenha alguma ideia, deposite-a [aqui](https://github.com/MatheusGatti/mememakertwitter/issues/new "aqui").
+- Caso deseja corrigir algum erro/bug, você pode encontrar questões abertas [aqui](https://github.com/MatheusGatti/mememakertwitter/issues "aqui").
