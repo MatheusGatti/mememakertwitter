@@ -57,3 +57,12 @@ access_token_secret="TWITTER APP TOKEN SECRET" (str)
 
 - Caso você tenha alguma ideia, deposite-a [aqui](https://github.com/MatheusGatti/mememakertwitter/issues/new "aqui").
 - Caso deseja corrigir algum erro/bug, você pode encontrar questões abertas [aqui](https://github.com/MatheusGatti/mememakertwitter/issues "aqui").
+
+
+### Licença
+Leia a licença clicando [aqui](https://github.com/MatheusGatti/mememakertwitter/blob/master/LICENSE "aqui").
+
+
+
+
+**Este robô foi desenvolvido com intuito de aprendizado, utilize-o por sua conta e risco.**
